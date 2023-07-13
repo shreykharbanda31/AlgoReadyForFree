@@ -56,8 +56,14 @@ Contributions to the AlgoReady For Free App are welcome! If you would like to co
 ```bash
 git checkout -b feature/your-feature
 ```
-3. Make your changes and commit them: git commit -m "Add your feature"
-4. Push to the branch: git push origin feature/your-feature
+3. Make your changes and commit them: 
+```bash
+git commit -m "Add your feature"
+```
+4. Push to the branch: 
+```bash
+git push origin feature/your-feature
+```
 5. Submit a pull request.
 
 ## License
