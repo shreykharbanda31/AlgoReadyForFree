@@ -73,4 +73,4 @@ The AlgoReady API Server is released under the [MIT License](https://opensource.
 Notice any issues with a repository? Please file a github issue in the repository.
 
 ## Contact
-If you have any questions, suggestions, or feedback, please feel free to reach out to us at shrey [dot] kharbanda [at] nyu [dot] edu.
+If you have any questions, suggestions, or feedback, please feel free to reach out at [shrey.kharbanda@nyu.edu](mailto:shrey.kharbanda@nyu.edu).
