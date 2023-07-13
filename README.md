@@ -22,6 +22,7 @@ This app demonstrates the following views and techniques:
 * [Glide](https://bumptech.github.io/glide/) to load and cache images by URL.
 * [AndroidYoutubePlayer](https://github.com/PierfrancescoSoffritti/android-youtube-player) to load and display YouTube videos
 * [Firebase](https://firebase.google.com/) for user login/registration authentication
+* [Google MS Play-Services](https://developers.google.com/android/guides/client-auth) for Google Sign-In
 
 It leverages the following components from the Jetpack library:
 
