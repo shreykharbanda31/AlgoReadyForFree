@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Created by Shrey Kharbanda on July 15, 2023 -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeScreenFragment">
+
+    <fragment
+        android:id="@+id/welcomeScreenFragment"
+        android:name="com.example.android.algoready.loginregistration.WelcomeScreenFragment"
+        android:label="fragment_welcomescreen"
+        tools:layout="@layout/fragment_welcomescreen" >
+        <action
+            android:id="@+id/action_login"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_register"
+            app:destination="@id/registerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/overviewFragment"
+        android:name="com.example.android.algoready.overview.OverviewFragment"
+        android:label="fragment_overview"
+        tools:layout="@layout/fragment_overview" >
+        <action
+            android:id="@+id/action_showDetail"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_backToWelcomeScreenFragment"
+            app:destination="@id/welcomeScreenFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.android.algoready.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="selectedProperty"
+            app:argType="com.example.android.algoready.network.VideoProperty"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.android.algoready.loginregistration.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_showOverview"
+            app:destination="@id/overviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.android.algoready.loginregistration.RegisterFragment"
+        android:label="RegisterFragment" >
+        <action
+            android:id="@+id/action_nowToLogin"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+</navigation>

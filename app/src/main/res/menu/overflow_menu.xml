@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Created by Shrey Kharbanda on July 15, 2023 -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/logout"/>
+</menu>

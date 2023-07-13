@@ -1,0 +1,9 @@
+<!-- Created by Shrey Kharbanda on July 15, 2023 -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:startColor="#FF0000"
+        android:endColor="#FF3333"
+        android:angle="270" />
+    <corners android:radius="8dp" />
+</shape>
