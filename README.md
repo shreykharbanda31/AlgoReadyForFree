@@ -32,7 +32,7 @@ It leverages the following components from the Jetpack library:
 
 It connects to a self-designed API server, hosted on Netlify:
 
-*[APIAlgoReady](https://github.com/shreykharbanda31/APIAlgoReady) which returns a JSON collection of YouTube Data via the GET request at the "/youtubedata" endpoint
+* [APIAlgoReady](https://github.com/shreykharbanda31/APIAlgoReady) which returns a JSON collection of YouTube Data via the GET request at the "/youtubedata" endpoint
 
 ## Video Demonstration
 
