@@ -1,6 +1,45 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-plugins {
-    id 'com.android.application' version '8.0.2' apply false
-    id 'com.android.library' version '8.0.2' apply false
-    id 'org.jetbrains.kotlin.android' version '1.8.20' apply false
+/**
+ * Created by Shrey Kharbanda on July 15th, 2023
+ */
+
+buildscript {
+
+    ext {
+        version_core = "1.3.1"
+        version_constraint_layout = "2.0.0-rc1"
+        version_glide = "4.8.0"
+        version_gradle = '8.0.2'
+        version_kotlin = '1.8.21'
+        version_lifecycle = '2.4.1'
+        version_moshi = "1.13.0"
+        version_navigation = '2.5.0'
+        version_retrofit = "2.9.0"
+        version_recyclerview = "1.2.0-alpha05"
+        version_ytplayerview = "12.0.0"
+        version_firebaseauth = "22.0.0"
+        version_gmsplayservices = "20.6.0"
+        version_gmsgoogleservices = "4.3.14"
+    }
+
+    repositories {
+        mavenCentral()
+        google()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$version_gradle"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$version_kotlin"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$version_navigation"
+        classpath "com.google.gms:google-services:$version_gmsgoogleservices"
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }
