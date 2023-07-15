@@ -65,7 +65,7 @@ fun bindImage(imgView: ImageView, imgUrl: String?) {
  * hides the image view.
  */
 
-@BindingAdapter("marsApiStatus")
+@BindingAdapter("youTubeDataApiStatus")
 fun bindStatus(statusImageView: ImageView, status: YouTubeDataApiStatus?) {
     when (status) {
         YouTubeDataApiStatus.LOADING -> {

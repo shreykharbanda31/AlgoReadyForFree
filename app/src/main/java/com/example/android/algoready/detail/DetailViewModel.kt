@@ -4,9 +4,7 @@
 
 package com.example.android.algoready.detail
 
-import android.app.Activity
 import android.app.Application
-import android.content.pm.ActivityInfo
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

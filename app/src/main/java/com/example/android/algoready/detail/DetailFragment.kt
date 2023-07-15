@@ -36,8 +36,8 @@ class DetailFragment : Fragment() {
         binding = FragmentDetailBinding.inflate(inflater)
         // Allows Data Binding to Observe LiveData with the lifecycle of this Fragment
         binding.lifecycleOwner = this
-        val marsProperty = DetailFragmentArgs.fromBundle(arguments!!).selectedProperty
-        val viewModelFactory = DetailViewModelFactory(marsProperty, application)
+        val videoProperty = DetailFragmentArgs.fromBundle(arguments!!).selectedProperty
+        val viewModelFactory = DetailViewModelFactory(videoProperty, application)
         viewModel = ViewModelProvider(
                 this, viewModelFactory).get(DetailViewModel::class.java)
         // Giving the binding access to the DetailViewModel built using the ViewModelFactory
