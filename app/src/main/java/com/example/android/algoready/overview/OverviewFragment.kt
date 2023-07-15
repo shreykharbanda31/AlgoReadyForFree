@@ -74,7 +74,7 @@ class OverviewFragment : Fragment() {
                     viewModel.logOut()
                     findNavController().apply {
                         popBackStack(
-                            R.id.welcomeScreenFragment,  // ID of the destination you want to retain
+                            R.id.welcomeScreenFragment,  // ID of the destination to retain
                             false // false to include the destination with the given ID in the back stack
                         )
                     }
