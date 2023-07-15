@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "757870867136",
+    "project_id": "login-registration-algoready",
+    "storage_bucket": "login-registration-algoready.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757870867136:android:02d3c7d40fd6b1ca967325",
+        "android_client_info": {
+          "package_name": "com.example.android.algoready"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757870867136-n5qsummsi7qsl9ka523qnddic14tdf0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbbYiKibyRK21lQGfCfn6p3abNZkutIxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757870867136-n5qsummsi7qsl9ka523qnddic14tdf0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
