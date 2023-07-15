@@ -5,16 +5,16 @@
 buildscript {
 
     ext {
-        version_core = "1.3.1"
-        version_constraint_layout = "2.0.0-rc1"
-        version_glide = "4.8.0"
+        version_core = '1.10.1'
+        version_constraint_layout = '2.2.0-alpha10'
+        version_glide = '4.15.1'
         version_gradle = '8.0.2'
-        version_kotlin = '1.8.21'
-        version_lifecycle = '2.4.1'
-        version_moshi = "1.13.0"
-        version_navigation = '2.5.0'
+        version_kotlin = '1.9.0'
+        version_lifecycle = '2.6.1'
+        version_moshi = '1.15.0'
+        version_navigation = '2.6.0'
         version_retrofit = "2.9.0"
-        version_recyclerview = "1.2.0-alpha05"
+        version_recyclerview = '1.3.1-rc01'
         version_ytplayerview = "12.0.0"
         version_firebaseauth = "22.0.0"
         version_gmsplayservices = "20.6.0"
