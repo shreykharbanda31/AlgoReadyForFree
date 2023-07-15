@@ -4,7 +4,9 @@
 
 package com.example.android.algoready.detail
 
+import android.app.Activity
 import android.app.Application
+import android.content.pm.ActivityInfo
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -33,6 +35,14 @@ class DetailViewModel(videoProperty: VideoProperty, app: Application) : AndroidV
     // Initialize the _selectedProperty MutableLiveData
     init {
         _selectedProperty.value = videoProperty
+    }
+
+    /**
+     * Changes the value of the [isFullScreen] [LiveData] when clicked
+     */
+
+    fun onFullScreenButtonClicked() {
+        _isFullScreen.value = !_isFullScreen.value!!
     }
 
 }
