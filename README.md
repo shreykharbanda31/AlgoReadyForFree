@@ -67,7 +67,7 @@ git push origin feature/your-feature
 5. Submit a pull request.
 
 ## License
-The AlgoReady API Server is released under the [MIT License](https://opensource.org/licenses/MIT).
+The AlgoReady For Free App is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Report Issues
 Notice any issues with a repository? Please file a github issue in the repository.

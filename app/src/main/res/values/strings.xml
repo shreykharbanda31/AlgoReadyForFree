@@ -14,4 +14,6 @@
     <string name="full_name">Full Name</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="register">REGISTER</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_e_mail_address">Enter your e-mail address</string>
 </resources>
