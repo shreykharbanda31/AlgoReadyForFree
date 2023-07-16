@@ -37,7 +37,9 @@ It connects to a self-designed API server, hosted on Netlify:
 
 ## Video Demonstration
 
-https://github.com/shreykharbanda31/AlgoReadyForFree/assets/87871039/62993a8c-94c8-4d64-9329-91bc457d73d3
+https://github.com/shreykharbanda31/AlgoReadyForFree/assets/87871039/d8e5ce8e-c6c5-4fca-b869-5c6722f8ba53
+
+
 
 ## How to use this repo to install the app
 
