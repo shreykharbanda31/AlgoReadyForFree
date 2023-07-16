@@ -37,7 +37,9 @@ It connects to a self-designed API server, hosted on Netlify:
 
 ## Video Demonstration
 
-![VideoDemo](videos/My%20video%20-%20Date%20(online-video-cutter.com).mp4)
+https://github.com/shreykharbanda31/AlgoReadyForFree/assets/87871039/62993a8c-94c8-4d64-9329-91bc457d73d3
+
+
 
 ## How to use this repo to install the app
 
