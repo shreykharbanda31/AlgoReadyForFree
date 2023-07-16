@@ -37,7 +37,7 @@ It connects to a self-designed API server, hosted on Netlify:
 
 ## Video Demonstration
 
-![VideoDemo](videos/AlgoReadyVideoDemo.mov)
+![VideoDemo](videos/Screen%20Recording%202023-07-16%20at%206.43.22%20AM.mov)
 
 ## How to use this repo to install the app
 
