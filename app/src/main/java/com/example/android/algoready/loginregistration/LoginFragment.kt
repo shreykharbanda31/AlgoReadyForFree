@@ -59,7 +59,7 @@ class LoginFragment : Fragment(){
         //Initializing Firebase authentication
         auth = Firebase.auth
         // Observe the loginClicked LiveData and perform UI changes
-        viewModel.loginClicked.observe(this) {
+        viewModel.loginClicked.observe(viewLifecycleOwner) {
             if (it) {
 
                 // Gets the input for email and password from the layout
