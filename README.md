@@ -37,7 +37,7 @@ It connects to a self-designed API server, hosted on Netlify:
 
 ## Video Demonstration
 
-![VideoDemo](videos/Screen%20Recording%202023-07-16%20at%206.43.22%20AM.mov)
+![VideoDemo](videos/My%20video%20-%20Date%20(online-video-cutter.com).mp4)
 
 ## How to use this repo to install the app
 
