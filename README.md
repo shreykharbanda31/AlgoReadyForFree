@@ -2,7 +2,7 @@
 
 Introducing the ultimate Android app for all aspiring tech enthusiasts: a one-stop hub for the finest Data Structures and Algorithms content! Seamlessly curated and effortlessly accessible, this app revolutionizes the way you learn and grow in the world of programming.
 
-Unlocking a treasure trove of knowledge, our app scours the vast expanse of YouTube to extract the absolute best video resources. And the best part? It's completely free! Dive deep into an extensive library of top-notch tutorials, engaging lectures, and insightful discussions that will elevate your understanding of Data Structures and Algorithms to new heights.
+Unlocking a treasure trove of knowledge, this app scours the vast expanse of YouTube to extract the absolute best video resources. And the best part? It's completely free! Dive deep into an extensive library of top-notch tutorials, engaging lectures, and insightful discussions that will elevate your understanding of Data Structures and Algorithms to new heights.
 
 This app is committed to supporting underrepresented communities and believe in providing equal opportunities for career advancement. That's why we're proud to offer this app as a free resource, empowering individuals from all backgrounds to access high-quality educational content and propel their careers forward.
 
