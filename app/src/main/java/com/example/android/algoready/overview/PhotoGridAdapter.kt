@@ -58,11 +58,11 @@ class PhotoGridAdapter( val onClickListener: OnClickListener ) :
      * Replaces the contents of a view (invoked by the layout manager)
      */
     override fun onBindViewHolder(holder: VideoPropertyViewHolder, position: Int) {
-        val marsProperty = getItem(position)
+        val videoProperty = getItem(position)
         holder.itemView.setOnClickListener {
-            onClickListener.onClick(marsProperty)
+            onClickListener.onClick(videoProperty)
         }
-        holder.bind(marsProperty)
+        holder.bind(videoProperty)
     }
 
     /**
